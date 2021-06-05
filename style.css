@@ -14,7 +14,7 @@ body {
   overflow: hidden;
 }
 
-div {
+main {
   font-family: "Sofia";
   font-size: 30px;
   font-weight: bold;
@@ -22,8 +22,14 @@ div {
   flex-direction: column;
 }
 
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 a {
